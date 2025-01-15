@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh """
                     echo "here i write shell script"
-                    echo "$GREETING"
+                    echo "$GREETINGS"
                 """
                 
             }
