@@ -7,6 +7,9 @@ pipeline {
     environment { 
         GREETINGS = 'HEllo Jenkins'
     }
+    options {
+        timeout(time: 1, unit: 'SECONDS') 
+    }
 
     // build
     stages {
